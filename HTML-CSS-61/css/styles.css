@@ -1,0 +1,297 @@
+:root {
+    --accent-color: #2196F3;
+    --background-button-color: #188CE8;
+    --black-logo-color: #000000;
+    --text-black-color: #212121;
+    --text-grey-color: #757575;
+    --text-white-color: #FFFFFF;
+    --footer-contact-text-color: rgba(255, 255, 255, 0.6);
+    --ligt-background-button-color: #F5F4FA;
+    --inner-border-color: #EEEEEE;
+    --background-dark-color: #2F303A;
+
+    --logo-font-family: 'Raleway', sans-serif;
+    --primary-font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    color: var(--text-black-color);
+    background-color: var(--text-white-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+footer {
+    font-family: var(--primary-font-family);
+    background-color: var(--background-dark-color);
+}
+
+/* ============================================================================ MAIN PAGE ============================================================================ */
+
+/* =================== COMPONENTS =================== */
+
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: #2196F3;
+}
+
+.studio {
+    color: #000000;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* =================== /COMPONENTS =================== */
+
+/* =================== HEADER =================== */
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-black-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.contact-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-grey-color);
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.contact-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-grey-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: var(--accent-color);
+}
+
+/* =================== HEADER =================== */
+
+/* =================== HERO =================== */
+
+.hero {
+    background-color: var(--background-dark-color);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--text-white-color);
+}
+
+.modal-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+
+    color: var(--text-white-color);
+    background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--background-button-color);
+}
+
+/* =================== HERO =================== */
+
+/* =================== PREFERENCES =================== */
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.description-preferences {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--text-grey-color);
+}
+
+/* =================== PREFERENCES =================== */
+
+/* =================== TEAM =================== */
+
+.team {
+    background-color: var(--ligt-background-button-color);
+}
+
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.description-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--text-grey-color);
+}
+
+/* =================== /TEAM =================== */
+
+/* =================== FOOTER =================== */
+
+.studio-white {
+    color: var(--text-white-color);
+}
+
+.address-list-location {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--text-white-color);
+}
+
+.address-list-location:hover,
+.address-list-location:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--footer-contact-text-color);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
+
+/* =================== /FOOTER =================== */
+
+
+/* ============================================================================ PORTFOLIO PAGE ============================================================================ */
+
+
+/* =================== PORTFOLIO SECTION =================== */
+
+.list-menu-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+
+    color: var(--text-black-color);
+    background-color: var(--ligt-background-button-color);
+}
+
+.list-menu-button:hover,
+.list-menu-button:focus {
+    color: var(--text-white-color);
+    background-color: var(--accent-color)
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+
+    color: var(--text-black-color);
+}
+
+.portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: var(--text-grey-color);
+}
+
+/* =================== /PORTFOLIO SECTION =================== */
